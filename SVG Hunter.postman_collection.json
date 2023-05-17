@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "5d4916a0-c3b3-48cc-acec-4698dfcd41fe",
+		"name": "SVG Hunter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24589347"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/user/all-users",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"user",
+						"all-users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
